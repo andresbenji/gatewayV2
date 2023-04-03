@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav {
+    background-color: black;
+    padding: 20px;
+    border: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+    
+  .logo{
+    color: #9b3636;
+    font-size: 60px;
+    font-family: luminari, bradley hand, papyrus;
+   }
+  
+  a{
+   text-decoration: none; 
+    color: #efebeb;
+    transition:0.5s all ease;
+  }
+  
+  ul li{
+    float: left;
+    font-family: papyrus;
+    padding: 15px;
+    font-size: 30px;
+    list-style: none;
+  }
+  
+  .link{
+    color: white;
+  }
+  .link:hover{
+    color: #b84242;
+  }
+  .welcome{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: white;
+    font-family: papyrus;
+    font-size: 25px;
+    background: black;
+    padding: 40px;
+    border-radius: 25px;
+    text-align: center;
+    overflow: auto;
+    
+  }
+  .hero-image{
+      position:relative; 
+      overflow: hidden;
+    }
+  
+  .order-now{
+    background:none;
+    font-size: 30px;
+    color: white;
+    font-family: papyrus;
+    border-radius:25%;
+    padding:15px;
+    transition:0.5s all ease;
+    margin: 10px;
+  }
+  .order-now:hover{
+    background: #b75c5c;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  
+  footer {
+    background:black;
+    display:flex;
+    padding:50px;
+    border: 50px;
+    align-items:flex-end;
+    justify-content:center;
+    
+  }
+  
+  .media-link img{
+    width:40px;
+    height: 40px;
+    margin: 20px;
+    
+    
+  }
+  
+  .media-link:hover{
+    box-shadow: 0 4px 10px 0 whitesmoke;
+    border-radius: 25px;
+  }
+  
+  .menu-header{
+    background: #b35b5b;
+    padding:6px;
+    display:flex;
+    justify-content: center;
+    font-family: papyrus;
+    font-size: 40px
+  }
+  
+  .column{
+      float: left;
+      width: 19.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+      margin: 40px;
+    border-radius: 25px;
+  }
+  .card{
+    box-shadow: 0 4px 8px 0 #a24949;
+    justify-content: space-between;
+    border-radius: 25px;
+    
+  }
+  
+  .container{
+    font-family:papyrus;
+    padding:15px;
+  }
+  
+  .contanier p{
+    font-family: arial;
+  }
+  
+  .button{
+    border: none;
+    outline: 5;
+    margin: 5px;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #955050;
+    text-align: center;
+    cursor: pointer;    
+    width: 100%; 
+    font-family:papyrus;
+    font-size:20px;
+  }
+  .button:hover{
+    background:black;
+  }
+  
+  .contact-us{
+    background: #b35b5b;
+    padding:6px;
+    display:flex;
+    justify-content: center;
+    font-family: papyrus;
+    font-size: 25px;
+    margin:-15px;
+  }
+  
+  .contact-form{
+    border-radius: 25px;
+    background-color: #b46464;
+    padding: 20px;
+    font-family: papyrus;
+    font-size: 20px;
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bf5a5a;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: papyrus;
+    font-size: 20px;
+  }
+  
+  @media screen and (max-width: 500px){
+    .welcome{
+      padding-top: 150px;
+      width: 300px;
+      height: 78%;
+      font-size: 20px;
+      padding-left: 200px;
+      padding-right: 200px;
+      background-image: url("https://mlbeacsiwa9k.i.optimole.com/9NFLyPQ.iANQ~34e3e/w:2000/h:864/q:mauto/https://www.mizkanchef.com/wp-content/uploads/2020/07/sushi-background.jpg");
+      
+    }
+    .order-now{
+      font-size: 15px;
+    }
+  
+    .logo {
+      font-size: 50px;
+    }
+  
+    a{
+      font-size: 20px;
+    }
+  
+    ul li{
+      padding:3px;
+      margin: 5px;
+    }
+  
+    .column {
+      width: 300px;
+    }
+  }
+    
+  @media screen and (min-width: 501px) and (max-width: 1200px){
+    .welcome {
+      font-size: 20px;
+      width: 400px;
+      height: 600px;
+    }
+    .column {
+      width: 250px;
+      padding: 10px;
+  
+    }
+  }
+  
